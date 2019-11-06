@@ -1,0 +1,156 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    width: 16px;
+    height: 16px;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.button:hover {
+    background-color: #15977d;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+.form {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/Без-имени-1.jpg);
+    box-sizing: border-box;
+    padding: 55px 70px 25px;
+}
+
+.form__head {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.form__login {
+    margin-right: 25px;
+}
+
+.form__link {
+    text-decoration: none;
+    color: #e1c2f1;
+    font-size: 18px;
+}
+
+.form__login :hover.form__link,
+.form__registration :hover.form__link {
+    color: #ffffff;
+    border-bottom: 2px solid #e66a64;
+}
+
+.form__body {
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.form__element-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form__element-ctrl {
+    width: 100%;
+    height: 40px;
+    background: none;
+    border: 2px solid #a88bcb;
+    color: #ffffff;
+}
+
+.form__element-ctrl:focus {
+    border-color: #23ae92;
+}
+
+.form__element-label--checkbox {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form__foot {
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+
+.form--button {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 42px;
+    background-color: #23ae92;
+    cursor: pointer;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form__submit-description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.form__submit-link {
+    color: #b9b9cc;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.tabs__content:not(:target) {
+    display: none;
+}
